@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -12,8 +12,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -62,7 +62,7 @@ h1, h2, h3, h4, h5 {
     letter-spacing: 1px;
     margin-bottom: 15px;
 }
- 
+
 /* Your code starts here! */
 .container {
 	width: 890px;
@@ -72,9 +72,6 @@ h1, h2, h3, h4, h5 {
 nav {
 	width: 690px;
 	display: inline-block;
-	margin-top: 30px;
-	padding-top: 11px;
-	padding-right: 7px;
 	color: gray;
 	cursor: pointer;
 	text-decoration: none;
@@ -83,16 +80,20 @@ nav {
 nav a {
 	color: black;
 	display: inline-block;
-	font-size: 15px;
-	margin-right: 60px;
+	font-size: 20px;
+	margin: 10px 25px 10px 10px;
+	padding: 10px 0px 10px 0px
 }
 
 a {
 	text-decoration: none;
 }
 
+a:hover {
+	background: gray;
+}
+
 ul {
-  background-color: gray;
   position: fixed;
   top: 0;
   z-index: 500;
@@ -100,7 +101,7 @@ ul {
 }
 
 .logo {
-	margin-top: 30px;
+	margin-top: 20px;
 	display: inline-block;
 }
 
@@ -111,26 +112,21 @@ ul {
 .cap-content{
 	text-align: center;
 	display: inline-block;
-	margin: 85px;	
+	margin: 65px;
 	font-size: 80px;
 	padding-top: 41px;
-	padding-left: -20px;
 }
 
 .cap-content button{
 	width: 174px;
-	height: 35px;	
-	position: relative;
-	top: -40px;
+	height: 35px;
 	background-color: white;
 	color: black;
 	border: 1px solid gray;
 }
 
-.cap image{
+.cap img{
 	display: inline-block;
-	position: relative;
-	padding-left: 20px;
 }
 
 .middle-img {
